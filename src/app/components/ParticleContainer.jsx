@@ -34,11 +34,6 @@ export default function ParticleContainer() {
             id="tsparticles"
             particlesLoaded={particlesLoaded}
             options={{
-                background: {
-                    color: {
-                        value: "#1c1c22",
-                    },
-                },
                 fpsLimit: 120,
                 interactivity: {
                     events: {
@@ -70,7 +65,7 @@ export default function ParticleContainer() {
                         color: "#f8973b",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.2,
                         width: 1,
                     },
                     move: {
@@ -91,7 +86,7 @@ export default function ParticleContainer() {
                         value: 150,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.2,
                     },
                     shape: {
                         type: "circle",
