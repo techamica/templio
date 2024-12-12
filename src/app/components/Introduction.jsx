@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import ParticleContainer from "./ParticleContainer"
 
 export default function Introduction() {
     return <motion.div

@@ -1,5 +1,4 @@
 import ProjectList from "./components/ProjectList";
-import ParticleContainer from "./components/ParticleContainer";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Introduction from "./components/Introduction";

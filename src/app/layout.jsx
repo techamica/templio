@@ -27,7 +27,9 @@ export default function RootLayout({ children }) {
         className={`${JetBrainsMono.variable} flex flex-col min-h-screen w-screen bg-dark`}
       >
         <AnimatePresence>
+          {/* BACKGROUND PARTICLE ANIMATION */}
           <ParticleBackground key={`pb-x`} />
+
           {children}
         </AnimatePresence>
       </body>
