@@ -15,6 +15,7 @@ export const metadata = {
 };
 
 import { AnimatePresence } from "framer-motion";
+import ParticleBackground from "./components/ParticleBackground";
 
 export default function RootLayout({ children }) {
   return (
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         className={`${JetBrainsMono.variable} flex flex-col min-h-screen w-screen bg-dark`}
       >
         <AnimatePresence>
+          <ParticleBackground key={`pb-x`} />
           {children}
         </AnimatePresence>
       </body>

@@ -65,7 +65,7 @@ export default function ParticleContainer() {
                         color: "#f8973b",
                         distance: 150,
                         enable: true,
-                        opacity: 0.2,
+                        opacity: 0.4,
                         width: 1,
                     },
                     move: {
@@ -86,7 +86,7 @@ export default function ParticleContainer() {
                         value: 150,
                     },
                     opacity: {
-                        value: 0.2,
+                        value: 0.4,
                     },
                     shape: {
                         type: "circle",

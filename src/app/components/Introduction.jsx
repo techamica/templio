@@ -16,21 +16,6 @@ export default function Introduction() {
         }}
         className="w-full relative z-10 order-2 xl:order-none my-10 xl:my-0"
     >
-        {/* PARTICLE BACKGROUND */}
-        <motion.div
-            initial={{ opacity: 0 }}
-            animate={{
-                opacity: 1,
-                transition: {
-                    delay: 2,
-                    duration: 1,
-                    ease: "easeInOut"
-                }
-            }}
-        >
-            <ParticleContainer />
-        </motion.div>
-
         {/* BACKGROUND PATTERN IMAGE */}
         <div className="absolute bg-[url('/pattern/pattern-1.png')] bg-cover bg-center w-full h-full opacity-5" />
 
